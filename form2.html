@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Address | letsupgrade</title>
+</head>
+<body>
+    <h1>Delivery Address:</h1>
+    <form>
+    <input type="text" maxlength="20" placeholder=" Enter your First Name" required/>
+    <br>
+    <br>
+    <input type="text" placeholder=" Enter your Last Name" required/>
+    <br>
+    <br>
+    <input type="number" placeholder="Enter your Number" max="10" required/>
+    <br>
+    <br>
+    <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" value="" required/>Male
+        <input type="radio" value=""  required/>Female
+        <input type="radio" value="" required>/Others
+    </fieldset>
+    <br>
+    <address>Address:
+        <br>
+        <br>
+        <input type="text" placeholder="Building no" required/>
+        <input type="text" placeholder="Area Name/locality" required/>
+        <br>
+        <br>
+        <select>
+            <option>--select a city--</option>
+            <option>Kolkata</option>
+            <option>Mumbai</option>
+            <option>Pune</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Haydrabad</option>
+        </select>
+        <select>
+            <option>--select a State--</option>
+            <option>West Bengal</option>
+            <option>Maharastra</option>
+            <option>Uttarpradesh</option>
+            <option>Bihar</option>
+            <option>karnataka</option>
+            <option>keral</option>
+        </select>
+        <input type="number" maxlength="6" minlength="1" placeholder="Area pincode" required/>
+    </address>
+    <br><br>
+    <p>select a Delivery date & time:</p>
+    <input type="datetime-local"/>
+    <br><br>
+    <textarea rows="5" cols="50" placeholder="Add a text message to this Gift..."></textarea>
+    <br>
+    <p>Choose a color of your Gift wrap:</p>
+    <input type="color"/>
+    <br>
+    <br>
+    <p> choose your wrapping charges:</p>
+    10<input type="range" max="100" min="10"/>100
+    <br><br>
+    <input type="checkbox"/>I'm not robot
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
